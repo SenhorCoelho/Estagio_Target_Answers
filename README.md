@@ -9,6 +9,7 @@ Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor semp
 IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
 
 SOLUÇÃO:<br>
+Arquivo: fibonacci.c
 Para este problema, utilizei uma recursão com os números iniciais da sequência de fibonacci, checando a cada chamada se o número atual da sequência é igual à entrada ou se é maior.
 Há proteções contra números negativos e mais de um argumento no programa, mas não protegi contra overflow de inteiro porque achei que seria overkill.
 <hr>
@@ -18,11 +19,13 @@ Escreva um programa que verifique, em uma string, a existência da letra ‘a’
 IMPORTANTE: Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código; 
 
 SOLUÇÃO:<br>
+Arquivo: count_chara.c
 Novamente utilizei argc e argv pra pegar inputs do usuário. Tentei fazer uma solução geral que funciona pra mais de um caracter, uma vez que a implementação seria basicamente a mesma.
 Coloquei o mínimo de proteção quanto à quantidade de argumentos e garanti que o segundo argumento não será uma string, mas um único caracter.
 <hr>
 
 PROBLEMA 3:<br>
+Arquivo: soma.c
 Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA); 
 Ao final do processamento, qual será o valor da variável SOMA?
 
