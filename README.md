@@ -34,30 +34,30 @@ Implementei a lógica em um programinha e a variável SOMA apresentou o resultad
 <hr>
 
 PROBLEMA 4:<br>
-Descubra a lógica e complete o próximo elemento: 
-a) 1, 3, 5, 7, ___ 
-b) 2, 4, 8, 16, 32, 64, ____ 
-c) 0, 1, 4, 9, 16, 25, 36, ____ 
-d) 4, 16, 36, 64, ____ 
-e) 1, 1, 2, 3, 5, 8, ____ 
-f) 2, 10, 12, 16, 17, 18, 19, ____
+Descubra a lógica e complete o próximo elemento: <br>
+a) 1, 3, 5, 7, ___ <br>
+b) 2, 4, 8, 16, 32, 64, ____ <br>
+c) 0, 1, 4, 9, 16, 25, 36, ____ <br>
+d) 4, 16, 36, 64, ____ <br>
+e) 1, 1, 2, 3, 5, 8, ____ <br>
+f) 2, 10, 12, 16, 17, 18, 19, ____<br>
 
 SOLUÇÃO:<br>
-Não desenvolvi código pra esse problema. As respostas que pensei foram:
-a) 1, 3, 5, 7, 9 
-b) 2, 4, 8, 16, 32, 64, 128
-c) 0, 1, 4, 9, 16, 25, 36, 49 
-d) 4, 16, 36, 64, 100
-e) 1, 1, 2, 3, 5, 8, 13 
-f) 2, 10, 12, 16, 17, 18, 19, 200
+Não desenvolvi código pra esse problema. As respostas que pensei foram:<br>
+a) 1, 3, 5, 7, 9 <br>
+b) 2, 4, 8, 16, 32, 64, 128<br>
+c) 0, 1, 4, 9, 16, 25, 36, 49 <br>
+d) 4, 16, 36, 64, 100<br>
+e) 1, 1, 2, 3, 5, 8, 13 <br>
+f) 2, 10, 12, 16, 17, 18, 19, 200<br>
 
-A lógica seria:
-a) Números ímpares em sequência;
-b) Potências de 2, começando em 1;
-c) Próximo número = Número anterior + Número Ímpar em sequência ascendente;
-d) Próximo número = (Número anterior x Número ímpar me sequência ascendente) + Número Anterior;
-e) Sequência de Fibonnaci;
-f) Números começando em D;
+A lógica seria:<br>
+a) Números ímpares em sequência;<br>
+b) Potências de 2, começando em 1;<br>
+c) Próximo número = Número anterior + Número Ímpar em sequência ascendente;<br>
+d) Próximo número = (Número anterior x Número ímpar me sequência ascendente) + Número Anterior;<br>
+e) Sequência de Fibonnaci;<br>
+f) Números começando em D;<br>
 <hr>
 
 PROBLEMA 5:<br>
