@@ -17,8 +17,6 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 	printf("A letra '%c' ocorre %i vezes na string.\n",  argv[2][0], find_char(argv[2][0], argv[1]));
-
-
 }
 
 int find_char(char c, char* str)
