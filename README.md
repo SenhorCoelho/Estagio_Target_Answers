@@ -4,9 +4,16 @@ Este repositório contém as perguntas e respostas da entrevista de estágio par
 
 Os desafios envolvendo código foram resolvidos na linguagem C.
 
-1) Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência. 
+PROBLEMA 1:
+
+Dado a sequência de Fibonacci, onde se inicia por 0 e 1 e o próximo valor sempre será a soma dos 2 valores anteriores (exemplo: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34...), escreva um programa na linguagem que desejar onde, informado um número, ele calcule a sequência de Fibonacci e retorne uma mensagem avisando se o número informado pertence ou não a sequência. 
 
 IMPORTANTE: Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
+
+SOLUÇÃO:
+
+Para este problema, utilizei uma recursão com os números iniciais da sequência de fibonacci, checando a cada chamada se o número atual da sequência é igual à entrada ou se é maior.
+Há proteções contra números negativos e mais de um argumento no programa, mas não protegi contra overflow de inteiro porque achei que seria overkill.
 
 2) Escreva um programa que verifique, em uma string, a existência da letra ‘a’, seja maiúscula ou minúscula, além de informar a quantidade de vezes em que ela ocorre. 
 
