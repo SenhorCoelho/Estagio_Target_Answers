@@ -64,10 +64,10 @@ PROBLEMA 5:<br>
 Você está em uma sala com três interruptores, cada um conectado a uma lâmpada em salas diferentes. Você não pode ver as lâmpadas da sala em que está, mas pode ligar e desligar os interruptores quantas vezes quiser. Seu objetivo é descobrir qual interruptor controla qual lâmpada. Como você faria para descobrir, usando apenas duas idas até uma das salas das lâmpadas, qual interruptor controla cada lâmpada?
 
 SOLUÇÃO:<br>
-Vou assumir que as lâmpadas começam todas apagadas.
-Meu primeiro passo é acender o interruptor 1 e esperar alguns minutos.
-Em seguida, apago o interruptor 1 e acendo o 2, e sigo pra sala 3.
-Se a luz está acesa, sei que o interruptor 2 corresponde àquela sala.
-Se está apagada, toco na lâmpada. Se estiver quente(porque deixei a lampada ligada um tempo), sei que o interruptor 1 corresponde àquela sala. Se estiver fria, é o interruptor 3.
-Sabendo o interruptor dessa sala 3, posso somente acender o interruptor 1 e seguir pra sala 2.
-Se a luz estiver acesa, então o interruptor 1 corresponde à sala 2 e o interruptor 2 corresponde à sala 1. Se estiver apagada, o inverso é válido.
+Vou assumir que as lâmpadas começam todas apagadas.<br>
+Meu primeiro passo é acender o interruptor 1 e esperar alguns minutos.<br>
+Em seguida, apago o interruptor 1 e acendo o 2, e sigo pra sala 3.<br>
+Se a luz está acesa, sei que o interruptor 2 corresponde àquela sala.<br>
+Se está apagada, toco na lâmpada. Se estiver quente(porque deixei a lampada ligada um tempo), sei que o interruptor 1 corresponde àquela sala. Se estiver fria, é o interruptor 3.<br>
+Sabendo o interruptor dessa sala 3(Vou assumir aqui que é o interruptor 3), posso somente acender o interruptor 1 e seguir pra sala 2.<br>
+Se a luz estiver acesa, então o interruptor 1 corresponde à sala 2 e o interruptor 2 corresponde à sala 1. Se estiver apagada, o inverso é válido.<br>
