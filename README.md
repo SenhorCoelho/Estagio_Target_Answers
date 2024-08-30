@@ -55,7 +55,7 @@ A lógica seria:<br>
 a) Números ímpares em sequência;<br>
 b) Potências de 2, começando em 1;<br>
 c) Próximo número = Número anterior + Número Ímpar em sequência ascendente;<br>
-d) Próximo número = (Número anterior x Número ímpar me sequência ascendente) + Número Anterior;<br>
+d) Próximo número = (Primeiro Número x Número ímpar me sequência ascendente) + Número Anterior;<br>
 e) Sequência de Fibonnaci;<br>
 f) Números começando em D;<br>
 <hr>
