@@ -25,11 +25,11 @@ Coloquei o mínimo de proteção quanto à quantidade de argumentos e garanti qu
 <hr>
 
 PROBLEMA 3:<br>
-Arquivo: soma.c<br>
 Observe o trecho de código abaixo: int INDICE = 12, SOMA = 0, K = 1; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA); 
 Ao final do processamento, qual será o valor da variável SOMA?
 
 SOLUÇÃO:<br>
+Arquivo: soma.c<br>
 Implementei a lógica em um programinha e a variável SOMA apresentou o resultado 77.
 <hr>
 
